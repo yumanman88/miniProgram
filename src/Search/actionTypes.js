@@ -1,0 +1,2 @@
+export const SEARCH_CHANGE = 'SEARCH_CHANGE';
+

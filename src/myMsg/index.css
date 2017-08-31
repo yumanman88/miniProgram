@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100vw;
+	height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+	display:flex;
+	flex-direction: column;
+	background-color: #eeeeee;
+}
+.topBar{
+	padding: 4vw;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+.topBar div{
+	font-size: 14px;
+	flex-grow: 1;
+	vertical-align: middle;
+}
+.topBar .titleTxt{
+	flex-grow: 1;
+	text-align: left;
+	font-size: 18px;
+}
+.topBar div img{
+	transform:rotate(180deg);
+	width: 4.2667vw;
+	height: 4.2667vw;
+}
+
+.topBar div span{
+	font-size: 4.267vw;
+}
+.userMessage{
+	padding:4vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	background-color: white;
+}
+.photo img{
+	width: 12vw;
+	height: 12vw;
+	border-radius: 6vw;
+}
+.photo{
+	width: 12vw;
+	height: 12vw;
+}
+.innerTxt{
+	margin-left: 3vw;
+	display: flex;
+	flex-grow: 1;
+	text-align: left;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.userName{
+	color:black;
+	font-size: 4.667vw;
+}
+.message{
+	height: 10vw;
+	overflow: hidden;
+	color:grey;
+	font-size: 3.733vw;
+}
+.other{
+	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color:grey;
+	font-size: 3.2vw;
+}
+.dateTime{
+	text-align: right;
+	margin:0;
+	padding:0;
+}

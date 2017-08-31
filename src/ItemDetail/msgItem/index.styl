@@ -1,0 +1,60 @@
+@import '../../common/css/flexible.styl'
+
+$lightFontColor = rgb(152, 152, 152)
+$yellowColor    = rgb(243, 124, 66)
+$greyColor      = rgb(152, 152, 152)
+$bgColor        = rgb(238, 238, 238)
+
+
+.MsgItem
+    .msg
+        .user-info
+            display flex
+            flex-direction row
+            justify-content flex-start
+            align-items center
+            .avatar
+                height px2rem(72px)
+                width px2rem(72px)
+                // background-image url("../img/avatar1.png")
+                // background-size px2rem(72px) px2rem(72px)
+                border-radius 50%
+            .name
+                font-weight bold
+                font-size px2rem(32px)
+                margin-left px2rem(20px)
+        .user-msg
+            font-size px2rem(32px)
+            margin px2rem(20px) 0 px2rem(10px) 0
+            margin-left px2rem(92px)
+        .time
+            margin-left px2rem(92px)
+            color $lightFontColor
+            font-size px2rem(15px)
+    .reply
+        margin px2rem(20px)
+        margin-left px2rem(92px)
+        border-top 1px solid $bgColor
+        .user-info
+            display flex
+            flex-direction row
+            justify-content flex-start
+            align-items center
+            .avatar
+                height px2rem(72px)
+                width px2rem(72px)
+                // background-image url("../img/avatar2.png")
+                // background-size px2rem(72px) px2rem(72px)
+                border-radius 50%
+            .name
+                font-weight bold
+                font-size px2rem(32px)
+                margin-left px2rem(20px)
+        .user-msg
+            font-size px2rem(32px)
+            margin px2rem(20px) 0 px2rem(10px) 0
+            margin-left px2rem(92px)
+        .time
+            margin-left px2rem(92px)
+            color $lightFontColor
+            font-size px2rem(15px)

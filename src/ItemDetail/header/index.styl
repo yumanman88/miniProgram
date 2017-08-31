@@ -1,0 +1,50 @@
+@import '../../common/css/flexible.styl'
+
+$lightFontColor = rgb(152, 152, 152)
+$yellowColor    = rgb(243, 124, 66)
+$greyColor      = rgb(152, 152, 152)
+$bgColor        = rgb(238, 238, 238)
+
+
+
+.Item-Detail-Header
+    p
+        letter-spacing px2rem(1px)
+
+    .items
+        width px2rem(690px)
+        font-size px2rem(28px)
+        padding px2rem(30px) px2rem(30px)
+        border-bottom 7px solid $bgColor
+        .tags-times
+            margin px2rem(20px) 0
+            font-size px2rem(28px)
+            display: flex
+            flex-direction row
+            justify-content space-between
+            color $lightFontColor
+        .short-desc
+            font-size px2rem(30px)
+        .price
+            margin px2rem(20px) 0 px2rem(30px) 0
+            #now-price
+                font-size px2rem(36px)
+                margin-right px2rem(20px)
+                color: rgb(235, 19, 19)
+            #origin-price
+                font-size px2rem(28px)
+                text-decoration: line-through
+                color $lightFontColor
+            .collectOwn
+                float right
+                height px2rem(44px)
+                width px2rem(44px)
+                background-size px2rem(44px) px2rem(44px)
+            .collect
+                background-image url('../img/collect.png')
+            .not-collect
+                background-image url('../img/no-collect.png')
+
+        .desc
+            font-size px2rem(30px)
+            line-height px2rem(50px)

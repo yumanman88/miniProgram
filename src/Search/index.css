@@ -1,0 +1,64 @@
+.nav{
+	height:11.733vw;
+	line-height: 11.733vw;
+	border-bottom:0.2vw solid #dddddd;
+	font-size:4.267vw;
+	display: flex
+}
+
+
+.img{
+	display: inline-block;
+	margin-top: 3.3vw;
+    height: 5vw;
+}
+
+.return{
+	vertical-align: top;
+		font-size:4.267vw;
+	display: inline-block;
+	line-height:12vw;
+}
+
+.input{
+	-webkit-appearance: none; 
+	font-size: 3.733vw;
+	width:82vw;
+	padding-left: 2vw;
+	margin:1.9vw 3vw;
+	height: 7.733vw;
+	border:0.2vw solid #dddddd;
+	border-radius: 1vw;
+}
+
+.title{
+	margin: 3.5vw 5vw 4vw;
+	height: 4vw;
+	line-height: 4vw;
+}
+
+.title span{
+	font-size: 3.733vw;
+	width:20vw;
+	vertical-align: top;
+	display: inline-block;
+	margin-top:1.5vw;
+	margin-right: 63vw;
+}
+
+.title img{
+	width:7vw;
+}
+
+.history{
+	margin:6vw 4vw;
+}
+
+.item{
+	display: inline-block;
+	font-size:3.467vw;
+	padding:1.5vw 3vw;
+	margin:0 4vw 3vw 0;
+	background-color: #eeeeee;
+	border-radius: 2vw;
+}

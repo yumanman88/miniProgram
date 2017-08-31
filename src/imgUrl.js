@@ -1,0 +1,1 @@
+export const imgUrl = "http://youshi-1253746847.image.myqcloud.com/";

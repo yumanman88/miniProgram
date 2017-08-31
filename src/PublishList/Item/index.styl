@@ -1,0 +1,73 @@
+@import '../../common/css/flexible.styl'
+
+$lightFontColor = rgb(152, 152, 152)
+$yellowColor    = rgb(243, 124, 66)
+$greyColor      = rgb(152, 152, 152)
+$bgColor        = rgb(238, 238, 238)
+
+
+.PublishList-Item-Wrap
+    p
+        letter-spacing px2rem(1px)
+
+    button
+        outline none
+        display inline-block
+        padding 0
+        margin 0
+
+    padding px2rem(30px)
+    border-bottom 1px solid $bgColor
+    width 100%
+    .item
+        display flex
+        flex-direction row
+        justify-content flex-start
+        width 100%
+        .img
+            width px2rem(222px)
+            height px2rem(222px)
+            background-image url('../img/test.png')
+            background-size px2rem(222px) px2rem(222px)
+            // margin-right px2rem(30px)
+        .info-wrap
+            width 65%
+            display flex
+            flex-direction column
+            justify-content flex-start
+            margin 0 px2rem(30px)
+            .detail
+                font-size px2rem(30px)
+                margin-bottom px2rem(30px)
+                word-break break-all
+                margin-right px2rem(50px)
+            .tags
+                color $lightFontColor
+                font-size px2rem(28px)
+                margin-bottom px2rem(60px)
+                .view-counts
+                    float right
+                    font-size px2rem(24px)
+                    margin-right px2rem(20px)
+            .price-wrap
+                display flex
+                flex-direction row
+                justify-content space-between
+                align-items flex-end
+                .price
+                    color $yellowColor
+                    font-size px2rem(36px)
+                .time
+                    color $lightFontColor
+                    font-size px2rem(24px)
+                    margin-right px2rem(50px)
+
+    .btn-wrap
+        button
+            height px2rem(58px)
+            width px2rem(212px)
+            margin 0 px2rem(18px) 0 0
+            border 1px solid $lightFontColor
+            font-size px2rem(26px)
+            background-color white
+            border-radius px2rem(10px)

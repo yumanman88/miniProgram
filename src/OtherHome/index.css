@@ -1,0 +1,68 @@
+.header{
+    text-align: center;
+}
+
+.background{
+    width:100vw;
+}
+
+.items {
+    background-color: #eeeeee;
+    height: 100%;
+}
+
+.avatar{
+  width: 20vw;
+}
+
+.nickname{
+    margin-top:-4vw;
+    font-size:4.8vw;
+}
+
+.icon{
+  width: 4.267vw;
+  margin-right:2vw; 
+}
+
+.info{
+    margin-top: -13.5vw;
+}
+
+.list{
+    margin-top: 2.2vw;
+    margin-left: 3.5vw;
+}
+
+.item{
+    height:7vw;
+    margin-bottom: 1.5vw;
+}
+
+.content{
+    display: inline-block;
+    font-size: 3.5vw;
+    vertical-align: middle;
+    margin-top: 1vw;
+}
+
+.bar{
+    margin-top: 8vw;
+    background-color: #eeeeee;
+    height:3vw;
+}
+
+.title{
+    height:5vw;
+    line-height:5vw;
+    margin-left:4vw;
+    padding-left: 2vw;
+    margin-top:4vw;
+    margin-bottom: 3vw;
+    font-size:5vw;
+    border-left:1.2vw solid rgb(243, 124, 66);
+}
+
+.star{
+    width:3vw;
+}
